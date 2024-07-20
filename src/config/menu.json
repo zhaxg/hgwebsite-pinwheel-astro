@@ -1,65 +1,15 @@
 {
   "main": [
     {
-      "name": "Home",
+      "name": "主页",
       "url": "/"
-    },
+    }, 
     {
-      "name": "About",
-      "url": "/about"
-    },
-    {
-      "name": "Blog",
+      "name": "博客",
       "url": "/blog"
-    },
+    },      
     {
-      "name": "Features",
-      "url": "/features"
-    },
-    {
-      "name": "How It Works",
-      "url": "/how-it-works"
-    },
-    {
-      "name": "Pages",
-      "url": "",
-      "hasChildren": true,
-      "children": [
-        {
-          "name": "Career",
-          "url": "/career"
-        },
-
-        {
-          "name": "Integrations",
-          "url": "/integrations"
-        },
-
-        {
-          "name": "Pricing",
-          "url": "/pricing"
-        },
-        {
-          "name": "Sign In",
-          "url": "/signin"
-        },
-
-        {
-          "name": "Elements",
-          "url": "/elements"
-        },
-        {
-          "name": "Changelog",
-          "url": "/changelog"
-        },
-        {
-          "name": "Terms And Conditions",
-          "url": "/terms-and-conditions"
-        }
-      ]
-    },
-    {
-      "name": "Contact",
+      "name": "联系我们",
       "url": "/contact"
     }
   ],

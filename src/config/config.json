@@ -1,14 +1,14 @@
 {
   "site": {
-    "title": "Pinwheel Astro",
-    "base_url": "https://pinwheel-astro.vercel.app",
+    "title": "红谷软件-构建智能新世界",
+    "base_url": "https://w3.rv.com.cn",
     "base_path": "/",
     "trailing_slash": false,
-    "favicon": "/images/favicon.png",
-    "logo": "/images/logo.png",
-    "logo_width": "147",
-    "logo_height": "31",
-    "logo_text": "Pinwheel"
+    "favicon": "/images/favicon.ico",
+    "logo": "/images/hgweb/红谷软件H.svg",
+    "logo_width": "150",
+    "logo_height": "35",
+    "logo_text": "红谷软件"
   },
 
   "settings": {

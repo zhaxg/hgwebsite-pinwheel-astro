@@ -38,12 +38,12 @@ const TestimonialSlider = ({ list }) => {
         {list.map((item, i) => (
           <SwiperSlide key={"feature-" + i}>
             <div className="review">
-              <div className="review-author-avatar bg-gradient">
-                <img src={item.avatar} alt="" />
+              <div className="review-author-avatar bg-gray-200 flex items-center justify-center">
+                <img src={item.avatar} alt="" class="object-cover rounded-full"/>
               </div>
               <h4 className="mb-2">{item.author}</h4>
-              <p className="mb-4 text-[#666]">{item.organization}</p>
-              <p>{item.content}</p>
+              <p className="hidden mb-4 text-[#666]">{item.organization}</p>
+              <p class="text-sm h-36 mt-8">{item.content}</p>
               <div
                 className={`review-rating mt-6 flex items-center justify-center space-x-2.5 ${item.rating}  `}
               >

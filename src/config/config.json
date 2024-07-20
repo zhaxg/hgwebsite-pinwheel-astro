@@ -18,11 +18,11 @@
   },
 
   "call_to_action": {
-    "title": "Helping teams in the world with focus",
-    "description": "Lorem ipsum dolor sit sed dmi amet, consectetur adipiscing. Cdo tellus, sed condimentum volutpat.",
+    "title": "选择，做难而正确的事情！",
+    "description": "智转数改的过程首先是企业高层学习与改变认知的开始，所谓一把手工程实际是认知的落地，让认知深入毛细血管。智转数改是一个庞大的课题，要做好整体规划，分步实施，避免未来重复建设或者推倒重来；流程标准化是先固化再优化，借鉴成功案例，吸收引进好的管理理念，做适合企业的规划，不过时且不要太超前是很有必要的；智转数改是产品是服务也是工业品，试错成本太大，记住“成功”是最优先的标准，选择专业的且值得信任的长期合作伙伴是第一要务；",
     "button": {
-      "label": "Download The Theme",
-      "link": "https://themefisher.com/astro-themes/pinwheel-astro"
+      "label": "联系我们(010-62983838)",
+      "link": "/contact"
     }
   },
 
@@ -33,12 +33,12 @@
   },
 
   "params": {
-    "footer_description": "Lorem ipsum dolor sit sed dmi amet, consectetur adipiscing. Cdo tellus, sed condimentum volutpat.",
-    "email": "info@andromeda.io",
-    "location": "2118 Thornridge Cir. Syracuse, Connecticut 35624",
-    "phone": "+704-555-0127",
+    "footer_description": "用智慧，连接一切！构建智能新世界！",
+    "email": "zhaxg@rv.com.cn",
+    "location": "北京市海淀区上地三街中黎科技园",
+    "phone": "010-62983838",
     "contact_form_action": "#",
-    "copyright": "Copyright © 2023 a theme by [Themefisher](https://themefisher.com)"
+    "copyright": "版权所有 © 红河谷 | 红谷软件 2024 [京公网安备11010802026914号](https://beian.mps.gov.cn/#/query/webSearch)"
   },
 
   "metadata": {

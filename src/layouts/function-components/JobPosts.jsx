@@ -27,7 +27,7 @@ const JobPosts = ({ posts, categories, career: { title, subtitle } }) => {
                   } btn btn-sm cursor-pointer`}
                   onClick={() => setTab("")}
                 >
-                  All Categories
+                  所有分类
                 </span>
               </li>
               {categories.map((category, i) => (

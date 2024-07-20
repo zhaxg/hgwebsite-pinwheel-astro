@@ -16,20 +16,16 @@
 
   "footer": [
     {
-      "name": "About",
-      "url": "/about"
+      "name": "主页",
+      "url": "/"
     },
     {
-      "name": "Contact",
+      "name": "博客",
+      "url": "/blog"
+    },
+    {
+      "name": "联系我们",
       "url": "/contact"
-    },
-    {
-      "name": "Elements",
-      "url": "/elements"
-    },
-    {
-      "name": "Changelog",
-      "url": "/changelog"
     }
   ]
 }

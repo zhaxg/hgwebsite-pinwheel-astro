@@ -30,13 +30,14 @@ export interface Props {
   title?: string;
   meta_title?: string;
   description?: string;
+  keywords?: string;
   image?: string;
   noindex?: boolean;
   canonical?: string;
 }
 
 // distructure frontmatters
-const { title, meta_title, description, image, noindex, canonical } =
+const { title, meta_title, description, keywords, image, noindex, canonical } =
   Astro.props;
 ---
 
@@ -108,6 +109,11 @@ const { title, meta_title, description, image, noindex, canonical } =
       content={plainify(
         description ? description : config.metadata.meta_description,
       )}
+    />
+
+    <meta
+      name="keywords"
+      content={plainify(keywords ? keywords : config.metadata.meta_keywords)}
     />
 
     <ViewTransitions />

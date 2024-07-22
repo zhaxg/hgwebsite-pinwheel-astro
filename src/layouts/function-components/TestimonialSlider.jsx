@@ -43,7 +43,7 @@ const TestimonialSlider = ({ list }) => {
               </div>
               <h4 className="mb-2">{item.author}</h4>
               <p className="hidden mb-4 text-[#666]">{item.organization}</p>
-              <p class="text-sm h-36 mt-8">{item.content}</p>
+              <p class="text-sm text-justify h-36 mt-8">{item.content}</p>
               <div
                 className={`review-rating mt-6 flex items-center justify-center space-x-2.5 ${item.rating}  `}
               >

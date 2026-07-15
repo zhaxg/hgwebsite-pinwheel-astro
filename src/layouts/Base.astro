@@ -8,6 +8,7 @@ import Header from "@/partials/Header.astro";
 import "@/styles/main.scss";
 import { AstroFont } from "astro-font";
 import { ViewTransitions } from "astro:transitions";
+import { Analytics } from "@vercel/analytics/react";
 
 // font families
 const pf = theme.fonts.font_family.primary;
@@ -176,6 +177,7 @@ const { title, meta_title, description, keywords, image, noindex, canonical } =
     <meta name="twitter:card" content="summary_large_image" />
   </head>
   <body>
+    <Analytics />
     <TwSizeIndicator />
     <Header />
     <main id="main-content">
